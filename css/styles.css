@@ -238,6 +238,7 @@ img {
 }
 .backdrop.is-hidden {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 .modal-window {
@@ -254,15 +255,19 @@ img {
   border-radius: 4px;
 }
 .close-modal {
-  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
-  margin-top: 8px;
-  margin-right: 8px;
-  margin-left: auto;
+  top: 8px;
+  right: 8px;
+  padding: 0;
   border-radius: 50%;
   background-color: var(--fifth-bcg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
   }
 /* ===END HERO=== */
 
