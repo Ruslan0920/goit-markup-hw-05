@@ -340,17 +340,12 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
-.thumb-work {
+.work-caption {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 370px;
   height: 70px;
-  opacity: 0.9;
-  background-color: rgba(47, 48, 58, 0.8);
-}
-.work-caption {
-  display: block;
   padding-top: 27px;
   padding-bottom: 27px;
   font-family: var(--primary-font-family);
@@ -360,7 +355,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--fourth-text-color);
+ color: var(--fourth-text-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  opacity: 0.9;
 }
 
 /* ===END OUR WORK=== */
